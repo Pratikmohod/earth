@@ -57,7 +57,7 @@ body{
 #pages a:hover{
     text-decoration: underline;
     font-size: 28px;
-    text-decoration-color:green ;
+    text-decoration-color:rgb(4, 237, 4) ;
 }
 
 /* 1st page content */
@@ -189,6 +189,7 @@ body{
     align-items: center;
     justify-content: center;
     padding: 10%;
+    background-color: rgba(52, 40, 24, 0.348);
     
 }
 .sig-form{
@@ -229,6 +230,7 @@ label{
     display: flex;
     justify-content: center;
     padding-top: 15%;
+
 }
 #submit{
     height: 30px;
@@ -237,8 +239,15 @@ label{
     background-color: wheat;
     color: rgb(42, 24, 2);;
     cursor: pointer;
-    border: none;
+    border: 1px rgb(17, 4, 4) solid;
     border-radius: 12px;
+    
+}
+#submit:hover{
+    background-color: greenyellow;
+    font-size: 23px;
+    width: 99px;
+    height: 29px;
 }
 .info{
     display: flex;
