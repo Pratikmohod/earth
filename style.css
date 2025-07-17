@@ -1,0 +1,256 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-image: url(earth-bg1.jpg);
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    min-width: 947px;
+    min-height: 642px;
+    
+
+}
+/* header section */
+
+#header{
+    
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1%  3%;
+    cursor: pointer;
+    
+}
+
+#logo{
+    font-size: 24px;
+    font-weight: 600;
+    color: rgb(245, 114, 27);
+    background-color: rgb(255, 255, 255);
+    border-radius: 12px;
+    text-shadow: 2px 2px rgb(7, 11, 22);
+    font-family: sans-serif;
+    border: 5px rgb(242, 160, 8) solid;
+    
+
+
+}
+#pages{ 
+    display: flex;
+    align-items: center;
+    column-gap: 30px;
+    padding-right: 8%
+}
+
+#pages a{
+    color: rgb(252, 252, 252);
+    font-size: 26px;
+    font-weight: 600;
+    text-decoration: none;
+    text-shadow: 2px 1px black;
+}
+
+#pages a:hover{
+    text-decoration: underline;
+    font-size: 28px;
+    text-decoration-color:green ;
+}
+
+/* 1st page content */
+
+
+#first-sec{
+    
+    height: 800px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+    
+    
+}
+.first-hbg{
+    display:flex;
+    justify-content:center; 
+    align-items:center;
+    background-color:rgb(245, 137, 5);
+    border-radius: 15px;
+}
+.heading1{
+    font-size: 10vh;
+    color:rgb(239, 209, 167);
+    letter-spacing:10px;
+    width: 100%;
+    border: 5px wheat solid;
+    text-shadow: 2px 2px black;
+}
+.second-hbg{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    
+}
+.about-para{
+    color: rgb(245, 245, 245);
+    font-size: 24px;
+    text-align: justify;
+    
+    
+}
+.para1{
+    padding: 5% 10% 0% 10%;
+    background-color: rgba(52, 40, 24, 0.348);
+    
+}
+
+/* ROTATION AND ORBIT PAGE */
+
+.second-vid{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(52, 40, 24, 0.348);
+    padding: 5% 0 5% 5px;
+}
+
+.rotation-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+
+.rotation-vid{
+    background-color:rgb(245, 137, 5);
+    height: 450px;
+    width: 400px;
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    border-radius: 35px;
+    border: 5px wheat solid;
+    
+}
+
+.rotation-para{
+    padding: 20px 40px 10px 40px ;
+    text-align:justify;
+    font-size: 24px;
+    color: rgb(245, 245, 245);
+}
+ /* FOR ORBIT */
+.second-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(52, 40, 24, 0.348);
+    padding: 5% 5px 5% 0;
+}
+.orbit-img{
+    
+    background-color:rgb(245, 137, 5);
+    height: 450px;
+    width: 400px;
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    border-radius: 35px;
+    border: 5px wheat solid;
+
+}
+
+.orbit-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+.orbit-para{
+    padding: 20px 40px 10px 30px ;
+    text-align:justify;
+    font-size: 24px;
+    color: rgb(245, 245, 245);
+}
+
+/* SIGNUP-PAGE CSS */
+
+.signup-main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10%;
+    
+}
+.sig-form{
+    background-color: rgb(245, 114, 27);
+    border: 5px wheat solid;
+    width: 40%;
+    border-radius: 12px;
+    
+
+}
+form{
+    padding: 15px 15px 15px 15px;
+    width: 100%;
+    height: 350px;
+    align-items: center;
+    
+
+}  
+label{
+    font-size: 24px;
+    float: left;
+    width: 150px;
+}
+.signup-page{
+    float: right;
+    height: 20px;
+    width: 120px;
+    font-size: 14px;
+    padding-top: 4px;
+    
+}
+.signup-earth{
+    padding-right: 10%;
+
+
+}
+.submit-main{
+    display: flex;
+    justify-content: center;
+    padding-top: 15%;
+}
+#submit{
+    height: 30px;
+    width: 100px;
+    font-size: 24px;
+    background-color: wheat;
+    color: rgb(42, 24, 2);;
+    cursor: pointer;
+    border: none;
+    border-radius: 12px;
+}
+.info{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+}
+
+
+    
+
+
+
+   
